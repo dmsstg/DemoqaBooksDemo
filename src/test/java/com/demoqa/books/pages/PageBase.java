@@ -2,7 +2,7 @@ package com.demoqa.books.pages;
 
 
 import com.demoqa.books.utils.JavaUtils;
-import com.demoqa.books.utils.Driver;
+import com.demoqa.books.base.Driver;
 import com.demoqa.books.base.TestEnvironment;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;

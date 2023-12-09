@@ -3,7 +3,7 @@ package com.demoqa.books.stepdefs;
 import com.demoqa.books.base.ScenarioContext;
 import com.demoqa.books.pojos.Book;
 import com.demoqa.books.utils.ApiUtils;
-import com.demoqa.books.utils.Driver;
+import com.demoqa.books.base.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

@@ -3,7 +3,7 @@ package com.demoqa.books.stepdefs;
 import com.demoqa.books.base.ScenarioContext;
 import com.demoqa.books.utils.ApiUtils;
 import com.demoqa.books.utils.BrowserUtils;
-import com.demoqa.books.utils.Driver;
+import com.demoqa.books.base.Driver;
 import com.demoqa.books.base.TestEnvironment;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;

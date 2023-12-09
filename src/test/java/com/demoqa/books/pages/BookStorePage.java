@@ -3,7 +3,7 @@ package com.demoqa.books.pages;
 import com.demoqa.books.pojos.Book;
 import com.demoqa.books.utils.BrowserUtils;
 import com.demoqa.books.base.TestEnvironment;
-import com.demoqa.books.utils.Driver;
+import com.demoqa.books.base.Driver;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

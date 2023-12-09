@@ -9,7 +9,7 @@ import org.junit.Assert;
 
 import static com.demoqa.books.base.PageProvider.getPageByUrl;
 import static com.demoqa.books.base.TestEnvironment.*;
-import static com.demoqa.books.utils.Driver.*;
+import static com.demoqa.books.base.Driver.*;
 import static org.junit.Assert.*;
 
 public class LoginStepDefinitions extends BaseStep {
