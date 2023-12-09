@@ -37,7 +37,7 @@ public class BookStepDefinitions extends BaseStep {
     }
 
     @When("the user clicks the [Add To Your Collection] button")
-    public void the_user_clicks_the_add_to_your_collection_button(String string) {
+    public void the_user_clicks_the_add_to_your_collection_button() {
         clickElementButBeforeScrollAndAfterWaitPageToLoad(
                 PAGE_PROVIDER.getBookPage().addToYourCollectionButton,
                 TestEnvironment.EXPLICIT_TIMEOUT_IN_SECONDS);
