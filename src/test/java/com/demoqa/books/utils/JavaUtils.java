@@ -146,7 +146,6 @@ public abstract class JavaUtils {
         return result;
     }
 
-
-
-
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

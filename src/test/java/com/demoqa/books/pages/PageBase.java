@@ -2,11 +2,8 @@ package com.demoqa.books.pages;
 
 
 import com.demoqa.books.utils.JavaUtils;
-import com.demoqa.books.utils.Driver;
+import com.demoqa.books.base.Driver;
 import com.demoqa.books.base.TestEnvironment;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
@@ -53,6 +50,6 @@ public abstract class PageBase {
         clickElementButBeforeScrollAndAfterWaitPageToLoad(logOutButton, TestEnvironment.EXPLICIT_TIMEOUT_IN_SECONDS);
     }
 
-
-
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

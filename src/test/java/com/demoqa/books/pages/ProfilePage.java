@@ -1,7 +1,7 @@
 package com.demoqa.books.pages;
 
 import com.demoqa.books.pojos.Book;
-import com.demoqa.books.utils.Driver;
+import com.demoqa.books.base.Driver;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -32,9 +32,6 @@ public class ProfilePage extends PageBase {
 
     @FindBy(xpath = "//*[@id=\"closeSmallModal-ok\"]")
     public WebElement popUpOkButton;
-
-    @FindBy(xpath = "//li//*[text()='Book Store']/..")
-    public WebElement bookStoreMenuItem;
 
     @FindBy(xpath = "//select[@aria-label='rows per page']")
     public WebElement rowSelector;
@@ -95,4 +92,7 @@ public class ProfilePage extends PageBase {
         Assert.assertEquals("Profile page is not displayed",
                 PAGE_HEADER,mainHeader.getText());
     }
+
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

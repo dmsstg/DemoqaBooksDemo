@@ -13,3 +13,5 @@ public class BookStore {
     @JsonProperty("books")
     private final List<Book> books = new ArrayList<>();
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

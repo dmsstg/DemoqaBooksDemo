@@ -1,5 +1,6 @@
 package com.demoqa.books.utils;
 
+import com.demoqa.books.base.Driver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
@@ -163,3 +164,6 @@ public abstract class BrowserUtils {
         LogUtils.logMethodSuccessfulExecution(LOG);
     }
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov
+

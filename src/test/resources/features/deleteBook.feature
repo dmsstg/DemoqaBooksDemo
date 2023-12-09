@@ -9,7 +9,7 @@ Feature: delete book from profile feature
 
   @ui
   Scenario: User deletes an existing book from their profile
-    Given the user is on the "Profile" page
+    Given the user is on the Profile page
     When the user clicks the trash can icon in the line with the book that needs to be deleted
     And the user click the OK button on popup
     And the user sees an alert with the message "Book deleted."

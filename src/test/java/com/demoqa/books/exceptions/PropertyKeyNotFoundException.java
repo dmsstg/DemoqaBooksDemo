@@ -14,3 +14,5 @@ public class PropertyKeyNotFoundException extends RuntimeException {
     }
 
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

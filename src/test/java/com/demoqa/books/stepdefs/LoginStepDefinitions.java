@@ -9,7 +9,7 @@ import org.junit.Assert;
 
 import static com.demoqa.books.base.PageProvider.getPageByUrl;
 import static com.demoqa.books.base.TestEnvironment.*;
-import static com.demoqa.books.utils.Driver.*;
+import static com.demoqa.books.base.Driver.*;
 import static org.junit.Assert.*;
 
 public class LoginStepDefinitions extends BaseStep {
@@ -73,5 +73,8 @@ public class LoginStepDefinitions extends BaseStep {
         PAGE_PROVIDER.getBookStorePage().loginButton.click();
     }
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov
+
 
 

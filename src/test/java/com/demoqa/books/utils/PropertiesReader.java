@@ -64,3 +64,5 @@ public class PropertiesReader {
         return properties.entrySet();
     }
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

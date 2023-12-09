@@ -1,6 +1,5 @@
 package com.demoqa.books.utils;
 
-import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public abstract class LogUtils {
@@ -23,3 +22,5 @@ public abstract class LogUtils {
     }
 
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

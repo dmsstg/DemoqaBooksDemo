@@ -5,11 +5,9 @@ import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 
-import java.util.List;
-
 import static com.demoqa.books.base.TestEnvironment.*;
 import static com.demoqa.books.utils.BrowserUtils.*;
-import static com.demoqa.books.utils.Driver.*;
+import static com.demoqa.books.base.Driver.*;
 
 public class LoginPage extends PageBase {
 
@@ -74,8 +72,6 @@ public class LoginPage extends PageBase {
 
         Assert.assertEquals(bsp.PAGE_URL,getDriver().getCurrentUrl());
     }
-
-
-
-
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

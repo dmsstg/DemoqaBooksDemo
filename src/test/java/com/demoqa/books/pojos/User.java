@@ -78,3 +78,5 @@ public class User {
                 '}';
     }
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

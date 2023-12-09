@@ -45,7 +45,6 @@ public class BookPage extends PageBase {
         return book;
     }
 
-
-
-
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

@@ -3,7 +3,7 @@ package com.demoqa.books.stepdefs;
 import com.demoqa.books.base.ScenarioContext;
 import com.demoqa.books.base.TestEnvironment;
 import com.demoqa.books.pojos.Book;
-import com.demoqa.books.utils.Driver;
+import com.demoqa.books.base.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -36,8 +36,8 @@ public class BookStepDefinitions extends BaseStep {
         PAGE_PROVIDER.getBookStorePage().clickBookByBookId(bookToPick.getBookId());
     }
 
-    @When("the user clicks the {string} button")
-    public void the_user_clicks_the_button(String string) {
+    @When("the user clicks the [Add To Your Collection] button")
+    public void the_user_clicks_the_add_to_your_collection_button() {
         clickElementButBeforeScrollAndAfterWaitPageToLoad(
                 PAGE_PROVIDER.getBookPage().addToYourCollectionButton,
                 TestEnvironment.EXPLICIT_TIMEOUT_IN_SECONDS);
@@ -84,3 +84,6 @@ public class BookStepDefinitions extends BaseStep {
 
 
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov
+
