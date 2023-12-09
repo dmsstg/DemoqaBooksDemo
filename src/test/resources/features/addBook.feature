@@ -10,7 +10,7 @@ Feature: add book to profile feature
     Given the user sees at least 1 book in the book store
     When the user clicks on any book title
     And the user is taken to the "Book" page
-    And the user clicks the "Add To Your Collection" button
+    And the user clicks the [Add To Your Collection] button
     And the user sees an alert with the message "Book added to your collection."
     And the user clicks the alert's "OK" button
     And the user clicks the "Profile" menu item

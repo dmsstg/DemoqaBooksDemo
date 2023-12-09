@@ -33,9 +33,6 @@ public class ProfilePage extends PageBase {
     @FindBy(xpath = "//*[@id=\"closeSmallModal-ok\"]")
     public WebElement popUpOkButton;
 
-    @FindBy(xpath = "//li//*[text()='Book Store']/..")
-    public WebElement bookStoreMenuItem;
-
     @FindBy(xpath = "//select[@aria-label='rows per page']")
     public WebElement rowSelector;
 

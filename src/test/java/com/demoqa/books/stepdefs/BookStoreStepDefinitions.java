@@ -43,7 +43,6 @@ public class BookStoreStepDefinitions extends BaseStep {
 
     @Then("the search functionality is confirmed")
     public void the_successful_execution_of_the_search_query_is_confirmed() {
-
         Assert.assertTrue(
                 "The search functionality is confirmed",
                 PAGE_PROVIDER.getBookStorePage().bookTitles.size() == verifiedBooksNum);

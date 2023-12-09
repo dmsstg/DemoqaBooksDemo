@@ -7,7 +7,7 @@ Feature: change number of displayed rows on the profile page
 
   @ui
   Scenario: User selects rows number to display
-    Given the user is on the "Profile" page
+    Given the user is on the Profile page
     When the user selects the number of rows to display
       | 10  |
       | 20  |

@@ -5,8 +5,6 @@ import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 
-import java.util.List;
-
 import static com.demoqa.books.base.TestEnvironment.*;
 import static com.demoqa.books.utils.BrowserUtils.*;
 import static com.demoqa.books.utils.Driver.*;

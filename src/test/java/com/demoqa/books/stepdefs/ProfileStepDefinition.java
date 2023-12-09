@@ -17,7 +17,7 @@ import static com.demoqa.books.utils.JavaUtils.*;
 public class ProfileStepDefinition extends BaseStep {
 
     private Book bookToDelete;
-    private List<String> actualNumOfRows = new ArrayList<>();
+    private final List<String> actualNumOfRows = new ArrayList<>();
     private List<String> expectedNumOfRows = new ArrayList<>();
 
     private boolean isSelectorFunctionalityConfirmed = false;
@@ -28,9 +28,9 @@ public class ProfileStepDefinition extends BaseStep {
         super(scenarioContext);
     }
 
-    @Given("the user is on the {string} page")
-    public void the_user_is_on_the_page(String string) {
-        Assert.assertEquals(Driver.getDriver().getCurrentUrl(),"https://demoqa.com/profile");
+    @Given("the user is on the Profile page")
+    public void the_user_is_on_the_page() {
+        Assert.assertEquals("https://demoqa.com/profile", Driver.getDriver().getCurrentUrl());
     }
 
     @Given("the user has {int} book[s] in their profile")

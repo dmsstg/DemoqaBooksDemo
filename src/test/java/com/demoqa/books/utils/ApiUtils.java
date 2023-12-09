@@ -139,7 +139,7 @@ public abstract class ApiUtils {
     }
 
     public static List<Book> getAllBookstoreBooks(){
-        List<Book> books =
+        return
                 given()
                         .spec(reqSpec)
                 .when()
@@ -147,7 +147,6 @@ public abstract class ApiUtils {
                 .then()
                         .statusCode(200)
                         .extract().jsonPath().getList("books",Book.class);
-        return books;
     }
 }
 

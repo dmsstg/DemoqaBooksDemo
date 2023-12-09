@@ -29,7 +29,7 @@ public class Book {
     @JsonIgnore private String bookId;
     @JsonIgnore public String pictureSrc;
 
-    public Book(){};
+    public Book(){}
 
     public Book(String isbn, String title, String subTitle, String author, String publisher, int totalPages, String description, String website) {
         setIsbn(isbn);
