@@ -20,7 +20,7 @@ System Under Test link: https://demoqa.com/books
   ><font size=3.5>:round_pushpin:**Note:**</font>
   >- <font size=3.5>`Scenario Outlines` and `Examples` are used for `test parametrization`.</font>
   >- <font size=3.5>`.properties files` serve as a source of `static test data`.</font>
-  >- <font size=3.5> `Java Random` class generates `dynamic test data` (e.g., quantity of items) for specific test steps.</font>  
+  >- <font size=3.5>`Java Random` class generates `dynamic test data` (e.g., quantity of items) for specific test steps.</font>  
 
 - Support for `end-to-end data validation within scenarios` is facilitated by employing Dependency Injection and ScenarioContext.
 - Enables `multi-environment test execution` through the design of Environment and ConfigurationReader classes.
