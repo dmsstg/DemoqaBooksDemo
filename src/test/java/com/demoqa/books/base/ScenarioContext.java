@@ -14,4 +14,7 @@ public class ScenarioContext {
         user.setPassword(TestEnvironment.VALID_PASSWORD);
         bookStore = new BookStore();
     }
+
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

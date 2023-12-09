@@ -50,3 +50,6 @@ public class BookStoreStepDefinitions extends BaseStep {
     }
 
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov
+

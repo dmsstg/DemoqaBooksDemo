@@ -92,9 +92,6 @@ public class BookStorePage extends PageBase {
         Driver.getDriver().findElement(By.xpath("//a[contains(@href,\"" + bookId + "\")]")).click();
     }
 
-
-
-
-
-
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

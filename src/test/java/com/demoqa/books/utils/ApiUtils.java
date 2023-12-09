@@ -150,3 +150,6 @@ public abstract class ApiUtils {
         return books;
     }
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov
+

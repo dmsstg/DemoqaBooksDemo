@@ -16,8 +16,7 @@ public abstract class BaseStep {
         PAGE_PROVIDER = new PageProvider();
     }
 
-
-
-
-
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov
+

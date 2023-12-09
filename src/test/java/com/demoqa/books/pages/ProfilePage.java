@@ -95,4 +95,7 @@ public class ProfilePage extends PageBase {
         Assert.assertEquals("Profile page is not displayed",
                 PAGE_HEADER,mainHeader.getText());
     }
+
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

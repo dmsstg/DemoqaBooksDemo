@@ -1,7 +1,6 @@
 package com.demoqa.books.base;
 
 import com.demoqa.books.pages.*;
-
 import java.lang.reflect.InvocationTargetException;
 
 import static com.demoqa.books.utils.JavaUtils.*;
@@ -48,7 +47,8 @@ public class PageProvider {
         return null;
     }
 
-
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov
 
 

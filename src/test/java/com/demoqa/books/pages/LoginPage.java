@@ -74,8 +74,6 @@ public class LoginPage extends PageBase {
 
         Assert.assertEquals(bsp.PAGE_URL,getDriver().getCurrentUrl());
     }
-
-
-
-
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

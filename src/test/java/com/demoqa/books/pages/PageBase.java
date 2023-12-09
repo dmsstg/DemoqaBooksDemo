@@ -53,6 +53,6 @@ public abstract class PageBase {
         clickElementButBeforeScrollAndAfterWaitPageToLoad(logOutButton, TestEnvironment.EXPLICIT_TIMEOUT_IN_SECONDS);
     }
 
-
-
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

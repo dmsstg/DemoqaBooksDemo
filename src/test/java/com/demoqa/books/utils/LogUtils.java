@@ -23,3 +23,5 @@ public abstract class LogUtils {
     }
 
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

@@ -163,3 +163,6 @@ public abstract class BrowserUtils {
         LogUtils.logMethodSuccessfulExecution(LOG);
     }
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov
+

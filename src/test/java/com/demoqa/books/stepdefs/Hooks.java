@@ -50,3 +50,5 @@ public class Hooks {
         Driver.closeDriver();
     }
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov

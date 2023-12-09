@@ -174,3 +174,5 @@ public class Book {
         return Objects.hash(getIsbn(), getBookId(), getTitle(), getSubTitle(), getAuthor(), getPublisher(), getPages(), getPictureSrc(), getDescription(), getWebsite());
     }
 }
+
+//Copyright (C) 2023  Dmitry Shcherbakov
