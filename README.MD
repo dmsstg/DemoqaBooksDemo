@@ -90,3 +90,6 @@ System Under Test link: https://demoqa.com/books
 2. Run the project from your IDE's command prompt or terminal using this command: <code>mvn test</code>
 4. Access the generated report in the following directory: `target/cucumber/cucumber-html-reports/overview-features.html`
    > :round_pushpin:**Note:** to configure the browser change the related values in the file by next path: <code>src/test/resources/configuration.properties</code>
+
+
+Copyright (C) 2023  Dmitry Shcherbakov
