@@ -92,4 +92,4 @@ System Under Test link: https://demoqa.com/books
    > :round_pushpin:**Note:** to configure the browser change the related values in the file by next path: <code>src/test/resources/configuration.properties</code>
 
 
-Copyright (C) 2023  Dmitry Shcherbakov
+<br><br><font size=2>Copyright (C) 2023  Dmitry Shcherbakov</font>
